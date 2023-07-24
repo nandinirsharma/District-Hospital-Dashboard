@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FRT Project Life Support</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="assets/css/style2.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <i class="fas fa-heartbeat"></i> HealthCare.
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">services</a>
+        <a href="#helpline">Helpline</a>
+        <a href="backend/doc/index.php">Login</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="book" id="book">
+      <div class="row">
+        <div class="image">
+          <img src="assets/images/book-img.svg" alt="" />
+        </div>
+
+        <form action="">
+          <h3>Centralised Dashboard</h3>
+          
+          <p style="text-align:left">Hospital Name</p>
+          <select  class="box" >
+            <option value="" selected disabled>Choose a Hospital</option>
+            <option value="Hospital X">Hospital X</option>
+            <option value="Hospital Y">Hospital Y</option>
+            <option value="Hospital Z">Hospital Z</option>
+          </select>
+          <input type="submit" value="Get Status of Vacancy" class="btn" />
+        </form>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <div class="box">
+      <img src="assets\pib.png" style="height:5%;width: 5%;">
+      <marquee><span><a style="font-size: medium;" href="https://pib.gov.in/PressReleasePage.aspx?PRID=1905602" target=”_blank”>H2N2 Updates !!</a></span></marquee>
+    </div>
+    
+    <!-- icons section starts  -->
+
+    <section class="icons-container">
+      
+      <div class="icons">
+        <i class="fas fa-user-md"></i>
+        <h3>140+</h3>
+        <p>doctors</p><br>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-procedures"></i>
+        <h3>500+</h3>
+        <p>bed facility</p>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-hospital"></i>
+        <h3>80+</h3>
+        <p>available hospitals</p>
+      </div>
+    </section>
+
+    <!-- icons section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading">our <span>services</span></h1>
+
+      <div class="box-container">
+        <div class="box" id="vacc">
+          <i class="fas fa-notes-medical"></i>
+          <h3>Vaccine</h3>
+          <p>
+            Available: <span id="vaccine_value"></span>
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-user-md"></i>
+          <h3>Doctors</h3>
+          <p>
+            Available:
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-user"></i>
+          <h3>Wards</h3>
+          <p>
+            Available:
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-ambulance"></i>
+          <h3>24/7 ambulance</h3>
+          <p>
+            available:
+          </p>
+        </div>
+
+
+        <div class="box">
+          <i class="fas fa-procedures"></i>
+          <h3>ICU beds</h3>
+          <p>
+            Availaible:
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-heartbeat"></i>
+          <h3>Ventilator</h3>
+          <p>
+            Available:
+            cases
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="assets/images/about-img.svg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>we take care of your healthy life</h3>
+          <p>
+            Life Support is driven by a Team of Healthcare Pioneers with a
+            demonstrated reputation of helping specialists use the most current
+            advances and showcasing methodologies to develop their practices.
+          </p>
+          <p>
+            In the wake of working with a huge number of specialists and
+            patients, we chose to assemble the Life Support Web-based
+            Application for one straightforward reason: Doctors and Patients
+            urgently required it!
+          </p>
+          <a href="#" class="btn">
+            learn more <span class="fas fa-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="credit">
+        created by <span>TechTitans</span> @copyrights reserved 2023
+      </div>
+    </sectio
+
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
